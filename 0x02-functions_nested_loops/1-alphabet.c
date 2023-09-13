@@ -1,25 +1,23 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
- * Description : A file that prints the phrase
- *      (_putchar)
- *
- * Return: 0 (success)
-*/
-
+ * print_alphabet - Prints the alphabet in lowercase followed by a new line.
+ */
 void print_alphabet(void)
 {
-        for(char letter = 'a'; letter <= 'z'; letter++)
-        {
+    char letter = 'a';
+
+    while (letter <= 'z')
+    {
         _putchar(letter);
-        }
-        _putchar('\n');
+        letter++;
+    }
+    _putchar('\n');
 }
 
 int main(void)
 {
-	void print_alphabet(void);
-	return (0);
+    print_alphabet();
+    return (0);
 }
+
