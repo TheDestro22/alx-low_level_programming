@@ -25,14 +25,6 @@ int print_last_digit(int n)
 		_putchar('0' + n);
 		return (n);
 	}
-
-	else if (n <= -2147483648)
-
-	{
-		lastdigit = 8;
-		_putchar('0' + lastdigit);
-		return (lastdigit);
-	}
 	else
 	{
 		_putchar('0' + n);
