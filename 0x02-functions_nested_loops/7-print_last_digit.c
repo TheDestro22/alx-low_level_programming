@@ -26,7 +26,7 @@ int print_last_digit(int n)
 		return (n);
 	}
 
-	else if (n < -100000)
+	else if (n <= -2147483648)
 
 	{
 		lastdigit = 8;
