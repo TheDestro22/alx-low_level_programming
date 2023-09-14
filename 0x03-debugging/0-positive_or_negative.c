@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - entery point
+ * positive_or_negative - entery point
  *
  * Description: false or ture validation
  *
