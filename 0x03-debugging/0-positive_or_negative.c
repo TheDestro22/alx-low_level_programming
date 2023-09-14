@@ -7,6 +7,8 @@
  *
  * Description: false or ture validation
  *
+ * @i: int to be checked
+ *
  * Return: 0 (success)
 */
 
