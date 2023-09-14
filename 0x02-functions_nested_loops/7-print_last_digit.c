@@ -11,6 +11,7 @@
 int print_last_digit(int n)
 {
 	int lastdigit;
+	INT_MIN = -2,147,483,648;
 
 	if (n > 10)
 	{
