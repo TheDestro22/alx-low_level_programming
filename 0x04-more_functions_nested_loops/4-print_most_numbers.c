@@ -19,5 +19,7 @@ void print_most_numbers(void)
 			c++;
 			_putchar('0' + c);
 		}
+		else
+			c++;
 	}
 }
