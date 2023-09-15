@@ -15,8 +15,6 @@ int mul(int a, int b)
 
 	sum = a * b
 
-	_putchar(sum);
-
-	return (0);
+	return (sum);
 
 }
