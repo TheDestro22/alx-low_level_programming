@@ -3,29 +3,27 @@
 /**
  * print_square - print a square using the character #
  *
- * @size: is the size of the square
- *
+ * @c: checks for input
  * Return: Always 0 (Success)
  */
 
+int _putchar(char c);
+
 void print_square(int size)
 {
-	int row, column;
-
 	if (size <= 0)
 	{
 		_putchar('\n');
-		return;
+	return;
 	}
 
-	for (row = 1; row <= size; row++)
+	int i, j;
+
+	for (i = 0; i < size; i++)
 	{
-		for (column = 1; column <= size; column++)
-		{
+		for (j = 0; j < size; j++)
 			_putchar('#');
-			if (column < size)
-				_putchar(' ');
-		}
 		_putchar('\n');
 	}
 }
+
