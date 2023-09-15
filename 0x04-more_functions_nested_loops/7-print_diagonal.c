@@ -5,7 +5,7 @@
  *	should be printed
 */
 
-void print diagonal(int n)
+void print_diagonal(int n)
 {
 	int postn, space;
 
