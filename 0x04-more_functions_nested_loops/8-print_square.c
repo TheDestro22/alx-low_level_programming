@@ -2,24 +2,18 @@
 
 /**
  * print_square - print a square using the character #
+ * @size: is the size of the square
  *
- * @c: checks for input
  * Return: Always 0 (Success)
 */
 
 void print_square(int size)
 {
-	if (size <= 0)
-	{
-		_putchar('\n');
-	return;
-	}
+	int row, column;
 
-	int i, j;
-
-	for (i = 0; i < size; i++)
+	for (row = 1; row <= size; row++)
 	{
-		for (j = 0; j < size; j++)
+		for (column = 1; column <= size; column++)
 			_putchar('#');
 		_putchar('\n');
 	}
