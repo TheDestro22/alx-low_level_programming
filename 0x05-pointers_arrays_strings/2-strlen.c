@@ -12,8 +12,10 @@ int _strlen(char *s)
 {
 	int length;
 
-	for (length = 0; *s != '\0'; s++)
 
-	_putchar("0" + *s / 10);
-	_putchar("0" + *s % 10);
+	for (*s = 0; *s != '\0'; s++)
+
+	length = *s
+	_putchar("0" + length / 10);
+	_putchar("0" + length % 10);
 }
