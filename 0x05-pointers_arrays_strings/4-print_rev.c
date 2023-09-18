@@ -11,10 +11,10 @@
 void print_rev(char *s)
 {
 
-char *str = '\0'
+*s = '\0'
 
-for (; *str != 0; str--)
-	_putchar(*str);
+for (; *s != 0; s--)
+	_putchar(*s);
 _putchar('\n');
 
 }
