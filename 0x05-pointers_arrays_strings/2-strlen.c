@@ -10,6 +10,6 @@
 
 int _strlen(char *s)
 {
-	_putchar("0" + *s / 10);
-	_putchar("0" + *s % 10);
+	_putchar("0" + '*s / 10');
+	_putchar("0" + '*s % 10');
 }
