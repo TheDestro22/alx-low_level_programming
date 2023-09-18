@@ -10,6 +10,15 @@
 
 int _strlen(char *s)
 {
-	_putchar("0" + '*s / 10');
-	_putchar("0" + '*s % 10');
-}
+	int length;
+
+	for ( *s != '\0')
+	{
+	s++
+	}
+	else
+	{	
+	_putchar("0" + *s / 10);
+	_putchar("0" + *s % 10);
+	}
+
