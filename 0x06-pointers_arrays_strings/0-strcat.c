@@ -11,7 +11,18 @@
 
 char *_strcat(char *dest, char *src)
 {
-	_putchar(*dest);
-	_putchar(*src);
+	while (*dest != '\0')
+	{
+		_putchar(*dest);
+		dest++;
+	}
+	_putchar('\n');
+
+	while (*src != '\0')
+	{
+		_putchar(*src);
+		src++
+	}
+	return (*dest);
 }
 
