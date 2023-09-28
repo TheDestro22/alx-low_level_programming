@@ -10,8 +10,9 @@
 
 int _strlen_recursion(char *s)
 {
-	int counter;
+	int counter = 0;
 
+	counter++;
 	if (*s == '\0')
 	{
 		return (counter);
