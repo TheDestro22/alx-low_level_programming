@@ -4,6 +4,7 @@
  * _sqrt_recursion - returns the function square
  *
  * @n: recieves the int input
+ * @val: square root
  *
  * Return: the natural sqaure root of a number
 */
