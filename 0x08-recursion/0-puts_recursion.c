@@ -3,7 +3,7 @@
 /**
  * _puts_recursion - pritns a string, followed by a new line
  *
- * @s: recieves the string input 
+ * @s: recieves the string input
  *
  * Return: Nothing
 */
